@@ -1,0 +1,9 @@
+{
+  "name": "shotpack-lite",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local shot-list validation, asset aggregation and plain-text handoff bundles.",
+  "license": "MIT",
+  "scripts": {"start": "node bin/serve.cjs"},
+  "engines": {"node": ">=18"}
+}

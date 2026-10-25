@@ -1,0 +1,23 @@
+# Only explicitly reviewed source files enter the candidate repository.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/LICENSE
+!/CHANGELOG.md
+!/package.json
+!/index.html
+!/启动工具.cmd
+!/src/
+/src/*
+!/src/core.js
+!/src/app.js
+!/src/style.css
+!/bin/
+/bin/*
+!/bin/shotpack.cjs
+!/bin/serve.cjs
+!/examples/
+/examples/*
+!/examples/demo.js
+!/examples/demo.json
