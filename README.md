@@ -2,7 +2,7 @@
 
 一个独立、无第三方依赖的镜头清单整理工具。用中文卡片编辑镜头，将同一工程整理为镜头清单、素材需求和提示词任务草稿。
 
-当前版本：0.1.0，本地发布候选版。尚未完成运行测试或用户验收。
+当前版本：0.1.0，初始开源版。尚未完成运行测试或用户验收。
 
 ## 功能
 
@@ -18,7 +18,7 @@
 
 双击 index.html，用本机浏览器打开。首次显示的是虚构的“雨后小站”示例，可直接查看三类文字预览。
 
-若浏览器对本地文件的脚本或文件选择器有限制，可以在已安装 Node.js 的电脑上双击“启动工具.cmd”，然后打开终端显示的本机地址。默认地址为 http://127.0.0.1:8765/。
+若浏览器对本地文件的脚本或文件选择器有限制，可以在已安装 Node.js 的电脑上双击“启动工具.cmd”，然后打开终端显示的本机地址。默认地址为 `http://127.0.0.1:8765/`。
 
 也可以在项目目录执行：
 
@@ -86,7 +86,7 @@ src/core.js 负责格式校验和文本整理；src/app.js 负责本地界面；
 
 这是初始实现。当前未提供或运行自动化测试，也没有跨浏览器兼容性结论或用户规模数据。缺陷反馈请使用虚构的最小示例，避免提交真实创作资料。
 
-源码由 AI 辅助编写，并由项目维护者决定采用及发布范围。拟采用 MIT 许可，见 LICENSE；当前仍待项目所有者确认公开发布。
+源码由 AI 辅助编写，并由项目维护者决定采用及发布范围。项目所有者已确认仅公开本工具的 15 个新编文件，采用 MIT 许可，见 LICENSE。
 
 ## English overview
 
@@ -94,4 +94,4 @@ Shotpack Lite is a small local shot-list editor and handoff formatter. It valida
 
 Open index.html, or run `node bin/serve.cjs`. For a new output directory, run `node bin/shotpack.cjs examples/demo.json ./exports/demo-001`. There are no runtime dependencies.
 
-This is an initial, AI-assisted implementation with fictional examples. Runtime tests, browser compatibility, and user adoption have not been established. The MIT license is a publication candidate pending the owner's review.
+This is an initial, AI-assisted implementation with fictional examples, published under the MIT license with the owner's approval. Runtime tests, browser compatibility, and user adoption have not been established.
